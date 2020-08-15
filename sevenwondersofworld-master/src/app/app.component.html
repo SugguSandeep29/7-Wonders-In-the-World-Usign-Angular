@@ -1,0 +1,18 @@
+<mat-toolbar color="primary">
+  <span>Seven Wonders Of World</span>
+  <span class="example-spacer"></span>
+  <span>180030167 Suggu Sandeep</span>
+</mat-toolbar>
+
+<mat-list>
+  <div mat-subheader>Folders</div>
+  <mat-list-item *ngFor="let item of sevenWonders">
+    <mat-icon mat-list-icon>explore</mat-icon>
+    <div mat-line>{{item.name}}</div>
+    <button mat-flat-button color="accent" routerLink={{item.link}}>Know More</button>
+  </mat-list-item>
+</mat-list>
+
+<br><br><br>
+
+<router-outlet></router-outlet>
