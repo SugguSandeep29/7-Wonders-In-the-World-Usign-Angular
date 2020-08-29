@@ -1,4 +1,4 @@
-# 7-Wonders-In-the-World-Usign-Angular
+# 7-Wonders-In-the-World-Using-Angular
 He cannot visit those places. Help him to display information about 7 wonders by developing an angular based project.
 
 In this project, each component represents each wonder. Create 7 buttons for 7
